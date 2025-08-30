@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HasHemMusic.COM</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <style>
+    * { margin:0; padding:0; box-sizing:border-box; font-family:'Inter', sans-serif; }
+    body { background:#f8f8f8; color:#333; line-height:1.6; }
+
+    /* Header */
+    header { background:#4f46e5; color:white; padding:30px 20px; text-align:center; }
+    header h1 { font-size:36px; font-weight:700; margin-bottom:10px; }
+    header p { font-size:18px; }
+
+    /* Navigation */
+    nav { background:#fff; padding:10px 20px; text-align:center; box-shadow:0 2px 4px rgba(0,0,0,0.1); }
+    nav a { margin:0 15px; text-decoration:none; color:#4f46e5; font-weight:600; }
+    nav a:hover { text-decoration:underline; }
+
+    /* Sections */
+    section { max-width:1000px; margin:40px auto; padding:0 20px; }
+    section h2 { color:#4f46e5; font-size:28px; margin-bottom:20px; text-align:center; }
+    .cards { display:flex; flex-wrap:wrap; gap:20px; justify-content:center; }
+    .card { background:white; padding:20px; border-radius:10px; flex:1 1 250px; box-shadow:0 2px 8px rgba(0,0,0,0.1); }
+
+    /* Buttons */
+    button { background:#4f46e5; color:white; border:none; padding:10px 20px; border-radius:5px; cursor:pointer; font-weight:600; }
+    button:hover { opacity:0.9; }
+
+    /* Contact Form */
+    form { display:flex; flex-direction:column; gap:10px; }
+    form input, form textarea { padding:10px; border-radius:5px; border:1px solid #ccc; width:100%; }
+    form button { width:150px; align-self:flex-start; }
+
+    /* Footer */
+    footer { background:#4f46e5; color:white; text-align:center; padding:20px; margin-top:40px; }
+
+    /* Responsive */
+    @media(max-width:768px) { .cards { flex-direction:column; } }
+  </style>
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <h1>🎵 HasHemMusic.COM</h1>
+    <p>আপনার গান, আপনার ইনকাম – আমরা শুধু বিতরণ করি</p>
+  </header>
+
+  <!-- Navigation -->
+  <nav>
+    <a href="#services">সার্ভিসেস</a>
+    <a href="#pricing">প্রাইসিং</a>
+    <a href="#artist">আর্টিস্ট লগইন</a>
+    <a href="#contact">যোগাযোগ</a>
+  </nav>
+
+  <!-- Services -->
+  <section id="services">
+    <h2>আমাদের সার্ভিস</h2>
+    <div class="cards">
+      <div class="card">
+        <h3>গান রিলিজ</h3>
+        <p>Spotify, Apple Music, TikTok, YouTube Music ইত্যাদিতে গান প্রকাশ।</p>
+      </div>
+      <div class="card">
+        <h3>ISRC / UPC কোড</h3>
+        <p>গানের সনাক্তকরণ ও ট্র্যাকিং এর জন্য ISRC এবং UPC কোড প্রদান।</p>
+      </div>
+      <div class="card">
+        <h3>রয়্যালটি রিপোর্টিং</h3>
+        <p>প্রতিটি গান থেকে আয় এবং রয়্যালটি রিপোর্ট সরাসরি অ্যাক্সেস।</p>
+      </div>
+      <div class="card">
+        <h3>YouTube Content ID</h3>
+        <p>ভিডিও কন্টেন্ট সুরক্ষা এবং মনিটাইজেশন।</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Pricing -->
+  <section id="pricing">
+    <h2>প্রাইসিং</h2>
+    <div class="cards">
+      <div class="card">
+        <h3>প্রতি গান রিলিজ</h3>
+        <p>মূল্য: ১,০০০ টাকা</p>
+      </div>
+      <div class="card">
+        <h3>Revenue Share Model</h3>
+        <p>রয়্যালটির ১৫% কোম্পানি রাখবে, বাকি শিল্পী পাবেন।</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Artist Login -->
+  <section id="artist">
+    <h2>আর্টিস্ট লগইন / ড্যাশবোর্ড</h2>
+    <div class="cards">
+      <div class="card">
+        <h3>ড্যাশবোর্ড</h3>
+        <p>গান আপলোড, রয়্যালটি রিপোর্ট এবং প্রোফাইল ম্যানেজমেন্ট।</p>
+        <button>লগইন</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Form -->
+  <section id="contact">
+    <h2>যোগাযোগ</h2>
+    <form>
+      <input type="text" placeholder="তোমার নাম" required>
+      <input type="email" placeholder="ইমেইল" required>
+      <textarea placeholder="মেসেজ লিখো" rows="5" required></textarea>
+      <button type="submit">পাঠাও</button>
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 HasHemMusic.COM. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
